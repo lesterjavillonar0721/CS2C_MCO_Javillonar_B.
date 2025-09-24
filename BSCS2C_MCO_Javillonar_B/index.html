@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <a href="#intro">About Me</a>
+            <a href="#skills">Skills/Hobbies</a>
+            <a href="#activities">WebDev Activities</a>
+            <a href="product_feature.html">Product Feature Page</a>
+            <a href="product_gallery.html">Product Gallery</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Aside (Left Side Bar) -->
+        <aside>
+            <h3>Month Calendar</h3>
+            <div class="calendar">
+                <h3>July 2006</h3>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td style="background-color: rgb(12, 13, 13); font-weight: bold;">21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                    </tr>
+                </table>
+            </div>
+
+            <p><a href="https://github.com/lesterjavillonar0721" target="_blank">Visit My GitHub</a></p>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Self Introduction -->
+            <section id="intro">
+                <h2>Self Introduction</h2>
+                <img src="img/Screenshot_20240507-193333~2.jpg" alt="My Portrait" width="150">
+                <p>Hi! I’m JAVILLONAR, LESTER B. A 2nd-year Computer Science student. I really enjoy coding, learning about web and software development, and discovering new tech. I’m excited to gain more experience, collaborate with others, and use my skills
+                    to create projects that can make an impact.</p>
+            </section>
+
+            <!-- About Me -->
+            <section>
+                <h2>About Me</h2>
+                <p>I am a 2nd-year Computer Science student with a strong interest in web development, programming and software engineering. I enjoy learning new technologies, solving problems, and building projects that enhance my skills and creativity.
+                    My goal is to gain more experience and prepare for a future career as a professional developer.</p>
+            </section>
+
+            <!-- Skills/Hobbies -->
+            <section id="skills">
+                <h2>My Skills and Hobbies</h2>
+                <div class="skills">
+                    <div>
+                        <img src="img/crossfire.webp" alt="Coding" width="180">
+                        <p>Playing CrossFire was an exciting experience that tested my focus and reflexes.</p>
+                    </div>
+                    <div>
+                        <img src="img/basketball.webp" alt="Gaming" width="180">
+                        <p>Playing basketball gave me both excitement and challenge.</p>
+                    </div>
+                    <div>
+                        <img src="img/anime.webp" alt="Reading" width="180">
+                        <p>Watching anime is one of the activities I truly enjoy. Each episode brings me into a different world full of adventure, lessons, and emotions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web Development Activities -->
+            <section id="activities">
+                <h2>Web Development Activities</h2>
+                <div class="activities">
+                    <div>
+                        <img src="img/ukay ukay.png" width="100%">
+                        <p>this is to how creating a page that use for sell</p>
+                    </div>
+                    <div>
+                        <img src="img/face bool.png" width="100%">
+                        <p>this is how to create a webpage media</p>
+                    </div>
+                    <div>
+                        <img src="img/survey.png" width="100%">
+                        <p>This helps me understand how to create the right layout</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Contact Us</h2>
+        <form class="footer-form" onsubmit="return submitFooterForm(event)">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" required><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Developer:<br>CS2C <br> Vhardey John Macabenta <br> & <br> Lester Javillonar</p>
+    </footer>
+
+    <script src="js/file.js"></script>
+
+</body>
+
+</html>

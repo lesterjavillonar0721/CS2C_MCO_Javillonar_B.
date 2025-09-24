@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>McLaren Product Gallery</title>
+    <link rel="stylesheet" href="css/product_gallery.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/gallery-header.jpg" class="header-photo" alt="Gallery Header">
+
+        <div class="nav-bar">
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product_feature.html">FEATURE PAGE</a></li>
+            </ul>
+        </div>
+
+        <p class="header-text">MCLAREN GALLERY</p>
+    </div>
+
+    <!-- Body Content: Product Grid -->
+    <div id="product-gallery" class="content-section">
+        <h2>Our Cars</h2>
+
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="img/mclaren2.jpg" alt="McLaren 720S">
+                <h3>McLaren 720S</h3>
+                <p>Supercar with advanced aerodynamics.</p>
+                <p>$300,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren4.jpg" alt="McLaren 765LT">
+                <h3>McLaren 765LT</h3>
+                <p>Lightweight track-focused supercar.</p>
+                <p>$400,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren5.jpg" alt="McLaren Artura">
+                <h3>McLaren Artura</h3>
+                <p>Hybrid supercar combining power and efficiency.</p>
+                <p>$250,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren6.jpg" alt="McLaren 600LT Spider">
+                <h3>McLaren 600LT Spider</h3>
+                <p>Track-ready lightweight supercar.</p>
+                <p>$239,995</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren7.jpg" alt="McLaren P1">
+                <h3>McLaren P1</h3>
+                <p>Iconic hybrid hypercar.</p>
+                <p>$1,200,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren1.jpg" alt="McLaren Senna">
+                <h3>McLaren Senna</h3>
+                <p>Extreme track-focused performance car.</p>
+                <p>$1,000,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren8.jpg" alt="McLaren GT">
+                <h3>McLaren GT</h3>
+                <p>Luxury grand tourer with comfort & speed.</p>
+                <p>$210,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren9.jpg" alt="McLaren 570S">
+                <h3>McLaren 570S</h3>
+                <p>Balanced sports performance car.</p>
+                <p>$190,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren10.jpeg" alt="McLaren 650S">
+                <h3>McLaren 650S</h3>
+                <p>Powerful supercar with sleek design.</p>
+                <p>$250,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren11.jpg" alt="McLaren 570GT">
+                <h3>McLaren 570GT</h3>
+                <p>Comfort-focused grand tourer supercar.</p>
+                <p>$200,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren12.jpg" alt="McLaren Speedtail">
+                <h3>McLaren Speedtail</h3>
+                <p>High-speed hypercar with futuristic design.</p>
+                <p>$2,200,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="img/mclaren13.jpg" alt="McLaren 675LT">
+                <h3>McLaren 675LT</h3>
+                <p>Track-ready supercar with lightweight body.</p>
+                <p>$330,000</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <form class="footer-form" onsubmit="return submitFooterForm(event)">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" required><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Developer:<br>CS2C <br> Vhardey John Macabenta <br> & <br> Lester Javillonar</p>
+    </footer>
+
+    <script src="js/file.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+/* ===== GENERAL ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+
+/* ===== HEADER ===== */
+
+header {
+    background: #101010;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+
+/* ===== LAYOUT ===== */
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+
+/* ASIDE */
+
+.calendar {
+    width: 280px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.calendar h3 {
+    margin: 0;
+    background: #121312;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.calendar th {
+    background: #e0e0e0;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.calendar td {
+    padding: 12px;
+    cursor: default;
+}
+
+.calendar td:hover {
+    background: #dfeadf;
+}
+
+.calendar .highlight {
+    background: #121111;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #000;
+}
+
+
+/* MAIN */
+
+main {
+    flex: 3;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    color: #004466;
+    border-bottom: 2px solid #004466;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+main img {
+    margin-bottom: 10px;
+}
+
+
+/* ===== SKILLS & ACTIVITIES ===== */
+
+.skills,
+.activities {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.skills div,
+.activities div {
+    flex: 1;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    background: #fafafa;
+    text-align: center;
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.skills div:hover,
+.activities div:hover {
+    transform: scale(1.05);
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    background: #090909;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background: #ffcc00;
+    color: #0d0d0d;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #e6b800;
+}

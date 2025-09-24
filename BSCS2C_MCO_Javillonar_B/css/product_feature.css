@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.882);
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 75px;    
+    right: 20px;  
+    color: white;
+    font-size: 1.5vw;  
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.header-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+} 
+
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(52, 52, 52, 0.362);
+    padding: 15px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.647);
+}
+
+.nav-menu {
+    display: flex;             
+    list-style: none;        
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 150px;            
+}
+
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    font-size: 1vw;
+}
+
+.nav-menu a:hover {
+    color: rgba(255, 255, 255, 0.71);
+}
+
+
+h2, p{
+    padding-left: 10px;
+}
+
+.content-section {
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 150px; 
+}
+
+.content-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 rgba(89, 89, 89, 0.534);
+    margin-bottom: 45px;
+}
+
+.photo-gallery img{
+    width: 75%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 rgba(89, 89, 89, 0.534);
+    margin-bottom: 45px;
+
+}
+
+footer {
+    background-color: #11111143;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.footer-form input, textarea {
+    width: 80%;
+    margin: 5px 0;
+    background-color: rgb(158, 158, 158);
+    color: rgb(3, 3, 3);
+}
+
+.footer-form button {
+    margin-top: 10px;
+    background-color: rgba(102, 102, 102, 0.367);
+    color: white;
+}
+
+footer p{
+    font-size: 12px;
+    margin-top: 15px;
+}
